@@ -1,4 +1,16 @@
 <!DOCTYPE html>
 <html lang="ja">
-    
+<head>
+    <meta charset="UTF-8">
+    <title>project</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    {% block content %}内容{% endblock %}
+    <footer class="footer">
+        <span>📁</span>
+        <span>🐰</span>
+        <span>🌞</span>
+    </footer>
+</body>
 </html>
